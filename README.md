@@ -4,25 +4,25 @@
   <img src="https://github.com/user-attachments/assets/60a13fab-2be8-4c63-9376-e1a4760ff431" alt="revShell" width="400">
 </p>
 
-## Descripción
+## Description
 
-`SuperTool` es una herramienta de `hacking ético` diseñada para realizar escaneos avanzados de `red`, buscar `vulnerabilidades` en `sitios web` y gestionar `exploits`. Utiliza herramientas como `nmap` para el escaneo de redes y searchsploit para buscar exploits.
+`SuperTool` is an `ethical hacking` tool designed to perform advanced `network` scans, search for `vulnerabilities` in `websites` and manage `exploits`. Use tools like `nmap` for network scanning and searchsploit to look for exploits.
 
-## Funciones
+## Features
 
-Escaneo de Redes: Identifica dispositivos en una red utilizando `Nmap`.
+Network Scanning: Identify devices on a network using `Nmap`.
 
-Escaneo Avanzado de Puertos: Detecta puertos abiertos y servicios asociados.
+Advanced Port Scanning: Detects open ports and associated services.
 
-Búsqueda de Vulnerabilidades Web: Escanea sitios web en busca de `vulnerabilidades` y `exploits`.
+Search for Web Vulnerabilities: Scans websites for `vulnerabilities` and `exploits`.
 
-Consulta de Servicios: Identifica el servicio asociado a un puerto específico.
+Service Query: Identifies the service associated with a specific port.
 
-Exploit de Vulnerabilidades: Busca `exploits` disponibles para servicios específicos.
+Exploit Vulnerabilities: Search for exploits available for specific services.
 
-## Instalación
+## Install
 
-Para instalar `SuperTool` y todas sus dependencias, ejecuta el siguiente script:
+To install `SuperTool` and all its dependencies, run the following script:
 
 ```bash
 git clone https://github.com/D1se0/superTool.git
@@ -33,80 +33,80 @@ cd superTool/
 sudo bash requirements.sh
 ```
 
-o
+either
 
 ```bash
 sudo su
 ./requirements.sh
 ```
 
-Este script instalará todas las librerías necesarias y copiará los scripts a `/usr/local/bin/superTool`. También creará un enlace simbólico para facilitar la ejecución del script principal desde cualquier ubicación.
+This script will install all the necessary libraries and copy the scripts to `/usr/local/bin/superTool`. It will also create a symbolic link to make it easier to run the main script from any location.
 
-## Uso
+## Use
 
-### Parámetros
+### Parameters
 
-`-r`: Buscar dispositivos en un rango de IP especificado.
+`-r`: Search for devices in a specified IP range.
 
-`-ex`: Buscar exploits para la IP especificada.
+`-ex`: Search for exploits for the specified IP.
 
-`-s`: Realizar un escaneo avanzado de la IP especificada.
+`-s`: Perform an advanced scan of the specified IP.
 
-`-w`: Buscar vulnerabilidades web para la URL especificada.
+`-w`: Search for web vulnerabilities for the specified URL.
 
-`--url`: URL del sitio web a escanear y buscar exploits (requerido con -w).
+`--url`: URL of the website to scan for exploits (required with -w).
 
-`--service-port`: Consultar servicio asociado al puerto.
+`--service-port`: Consult service associated with the port.
 
-## Ejemplos de Uso
+## Examples of Use
 
-### Escanear un rango de IP
+### Scan an IP range
 
 ```bash
 python3 superTool.py -r 192.168.1.0/24
 ```
 
-Este comando escaneará el rango de IP `192.168.1.0/24` para encontrar dispositivos activos.
+This command will scan the IP range `192.168.1.0/24` to find active devices.
 
-### Buscar exploits para una IP
+### Search for exploits for an IP
 
 ```bash
 python3 superTool.py -ex 192.168.1.10
 ```
-Este comando buscará exploits para la IP `192.168.1.10`.
+This command will look for exploits for the IP `192.168.1.10`.
 
-### Realizar un escaneo avanzado de una IP
+### Perform an advanced scan of an IP
 
 ```bash
 python3 superTool.py -s 192.168.1.10
 ```
 
-Este comando realizará un escaneo avanzado de la IP `192.168.1.10` y detectará puertos abiertos.
+This command will perform an advanced scan of the IP `192.168.1.10` and detect open ports.
 
-### Buscar vulnerabilidades web para una URL
+### Search for web vulnerabilities for a URL
 
 ```bash
 python3 superTool.py -w --url http://example.com
 ```
 
-Este comando escaneará la URL `http://example.com` para encontrar vulnerabilidades web. `Nota: El parámetro --url es obligatorio cuando se usa -w`.
+This command will scan the URL `http://example.com` to find web vulnerabilities. `Note: The --url parameter is required when using -w`.
 
-### Consultar servicio asociado a un puerto
+### Consult service associated with a port
 
 ```bash
 python3 superTool.py --service-port 80
 ```
 
-Este comando consultará el servicio asociado al puerto `80`.
+This command will query the service associated with port `80`.
 
-## Mantenimiento
+## Maintenance
 
-Si encuentras algún error o tienes sugerencias, por favor, abre un problema en el repositorio de GitHub.
+If you find any bugs or have suggestions, please open an issue in the GitHub repository.
 
-## Contribuciones
+## Contributions
 
-¡Las contribuciones son bienvenidas! Por favor, consulta el `CONTRIBUTING.md` para obtener más detalles sobre cómo contribuir.
+Contributions are welcome! Please see the `CONTRIBUTING.md` for more details on how to contribute.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENSE para obtener detalles.
+This project is licensed under the MIT License - see the LICENSE file for details.
