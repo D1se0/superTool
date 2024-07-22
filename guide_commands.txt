@@ -1,0 +1,9 @@
+# (Recomendable utilizarlo desde la propia carpeta con el .py ya que al utilizarlo de forma externa puede dar algunos fallos)
+
+# Para que la herramienta superTool funcione correctamente instalaremos los requisitos de la siguiente forma como root...
+
+$ ./requirements.sh
+
+# Una vez instalados los requisitos probaremos a ejecutarla de la siguiente forma...
+
+$ superTool -h
