@@ -23,7 +23,7 @@ Exploit de Vulnerabilidades: Busca `exploits` disponibles para servicios especí
 Para instalar `SuperTool` y todas sus dependencias, ejecuta el siguiente script:
 
 ```bash
-git clone 
+git clone https://github.com/D1se0/superTool.git
 cd superTool/
 ```
 
