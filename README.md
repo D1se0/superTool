@@ -1,6 +1,8 @@
 # SuperTool
 
- <!-- Reemplaza esta URL con la URL de tu imagen -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/60a13fab-2be8-4c63-9376-e1a4760ff431" alt="revShell" width="400">
+</p>
 
 ## Descripción
 
